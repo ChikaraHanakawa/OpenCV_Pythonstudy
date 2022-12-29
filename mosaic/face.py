@@ -13,11 +13,12 @@ def mozaiku(img, alpha):
   w = img.shape[1]
   h = img.shape[0]
 
-  #サイズ加工(最近傍補間について)
+  #サイズ加工(最近傍補間)
   img = cv2.resize(img, (int(w*alpha), int(h*alpha)))
   img = cv2.resize(img, (w, h), interpolation=cv2.INTER_NEAREST)
+  print(img)
   return img
-  
+
 #映らない場合の処理
 if cap.isOpened() is False:
   sys.exit("can not open camera")
