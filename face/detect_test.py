@@ -12,7 +12,7 @@ dirname = 'face_images'
 
 cap = cv2.VideoCapture(0)
 
-cascade_filepath = "/data/haarcascades/haarcascade_frontalface_alt.xml"
+cascade_filepath = "/home/chikara/test/OpenCV_Pythonstudy/mosaic/data/haarcascades/haarcascade_frontalface_alt.xml"
 FaceCascade = cv2.CascadeClassifier(cascade_filepath)
 
 count = 0
