@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 #動画取得
-cap = cv2.VideoCapture(8)
+cap = cv2.VideoCapture(0)
 
 #色の設定
 def detect(frame):

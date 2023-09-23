@@ -23,7 +23,7 @@ def mosaic(img, alpha):
   return img 
 
 #カスケードパスを宣言
-cascade_filepath = "/home/chikara/versatility/OpenCV_Pythonstudy/mosaic/data/haarcascades/haarcascade_frontalface_alt.xml"
+cascade_filepath = "/home/chikara/Python/OpenCV_Pythonstudy/mosaic/data/haarcascades/haarcascade_frontalface_alt.xml"
 
 #画像モデルの読み込み
 FaceCascade = cv2.CascadeClassifier(cascade_filepath)
