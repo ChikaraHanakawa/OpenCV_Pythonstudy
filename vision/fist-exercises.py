@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img_src = cv2.imread("/home/chikara/Pictures/lena.jpeg")
+img_src = cv2.imread("")
 
 def parse_pgm(fd):
   w = 0
